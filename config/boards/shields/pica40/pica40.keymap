@@ -108,8 +108,8 @@
                 &kp MINUS  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N  &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp GRAVE
                                             &lt FUNC ESC  &lt NUM TAB  &lh SYM SPACE    &lt FUNC ENTER  &lh NAV BSPC  &tm RALT DEL
                 >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+                
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         game_layer {
