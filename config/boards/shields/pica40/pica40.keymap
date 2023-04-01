@@ -41,6 +41,8 @@
    &kp LSHFT      &kp Z       &kp X      &kp C     &kp V           &kp B   &kp N  &kp M           &kp COMMA    &kp DOT   &kp FSLH   &mt RALT GRAVE
                   &kp LGUI    &mo 1      &lt NAVI RET              &kp SPACE       &kp BSPC    &lt ADJUST CAPSLOCK
                         >;
+                        
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
                 };
                 
                 lower_layer {
