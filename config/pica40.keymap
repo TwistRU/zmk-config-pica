@@ -43,7 +43,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp C_VOL_UP C_VOL_DOWN \\ left
+                &inc_dec_kp C_VOL_UP C_VOL_DN \\ left
                 &inc_dec_kp PG_UP PG_DN \\ right
                 >;
         };
