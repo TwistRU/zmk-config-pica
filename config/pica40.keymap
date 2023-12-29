@@ -42,7 +42,9 @@
                              &kp LGUI  &mo 1  &lt NAVI RET  &kp SPACE  &kp BSPC  &lt ADJUST CAPSLOCK
             >;
 
-            sensor-bindings = <&inc_dec_kp A B &inc_dec_kp C D>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
+                <&inc_dec_kp C D>;
         };
 
         lower_layer {
