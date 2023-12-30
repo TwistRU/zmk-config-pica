@@ -114,7 +114,7 @@
                                    &lt 5 ESC    &lt 2 TAB    &lh 4 SPACE  &lt 5 ENTER  &lh 3 BSPC   &tm RALT DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         game_layer {
@@ -125,7 +125,7 @@
                                &hm LCTRL ESC  &lt 3 TAB  &kp SPACE  &lt 5 ENTER  &lh 2 BSPC  &lh 4 DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         nav_layer {
