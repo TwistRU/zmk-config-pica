@@ -119,10 +119,10 @@
 
         game_layer {
             bindings = <
-                 &kp Q  &kp W  &kp E          &kp R      &kp T        &kp Y        &kp U       &kp I         &kp O    &kp P
-&hm LALT EQUAL   &kp A  &kp S  &kp D          &kp F      &kp G        &kp H        &kp J       &kp K         &kp L    &kp SEMI  &hm LGUI SQT
-&hm LSHFT MINUS  &kp Z  &kp X  &kp C          &kp V      &kp B        &kp N        &kp M       &kp COMMA     &kp DOT  &kp FSLH  &tog 1
-                               &hm LCTRL ESC  &lt 3 TAB  &lh 4 SPACE  &lt 5 ENTER  &lh 2 BSPC  &tm RALT DEL
+                 &kp Q  &kp W  &kp E          &kp R      &kp T      &kp Y        &kp U       &kp I         &kp O    &kp P
+&hm LALT EQUAL   &kp A  &kp S  &kp D          &kp F      &kp G      &kp H        &kp J       &kp K         &kp L    &kp SEMI  &hm LGUI SQT
+&hm LSHFT MINUS  &kp Z  &kp X  &kp C          &kp V      &kp B      &kp N        &kp M       &kp COMMA     &kp DOT  &kp FSLH  &tog 1
+                               &hm LCTRL ESC  &lt 3 TAB  &kp SPACE  &lt 5 ENTER  &lh 2 BSPC  &lh 4 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
