@@ -157,9 +157,9 @@
 
         function_layer {
             bindings = <
-             &kp F12  &kp F7  &kp F8  &kp F9      &kp PSCRN        &bt BT_CLR  &bootloader  &bt BT_NXT  &none     &none
-&kp LCTRL    &kp F11  &kp F4  &kp F5  &kp F6      &kp PAUSE_BREAK  &none       &kp RSHFT    &kp RCTRL   &kp LALT  &kp RGUI  &none
-&bootloader  &kp F10  &kp F1  &kp F2  &kp F3      &kp CAPS         &none       &none        &none       &none     &none     &none
+             &kp F12  &kp F7  &kp F8  &kp F9      &kp PSCRN        &bt BT_CLR  &bootloader  &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1
+&kp LCTRL    &kp F11  &kp F4  &kp F5  &kp F6      &kp PAUSE_BREAK  &none       &kp RSHFT    &kp RCTRL   &kp LALT      &kp RGUI      &bt BT_SEL 2
+&bootloader  &kp F10  &kp F1  &kp F2  &kp F3      &kp CAPS         &none       &none        &none       &none         &none         &none
                               &trans  &kp C_NEXT  &kp C_PP         &trans      &trans       &trans
             >;
 
