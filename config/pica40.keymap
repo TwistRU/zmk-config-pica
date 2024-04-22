@@ -114,7 +114,9 @@
                                    &lt 5 ESC    &lt 3 TAB    &lh 4 SPACE  &lt 5 ENTER  &lh 2 BSPC   &tm RALT DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         game_layer {
@@ -153,6 +155,10 @@
 &kp LC(V)  &kp GT    &kp EXCL  &kp AT     &kp HASH   &kp RIGHT_BRACKET  &none  &none      &none      &none     &none     &none
                                &kp TILDE  &tog 1     &trans             &none  &trans     &none
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         function_layer {
